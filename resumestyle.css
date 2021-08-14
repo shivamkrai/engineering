@@ -1,0 +1,137 @@
+body{
+	background-color: lightpink;
+}
+.img{
+	float: right;
+	position: RELATIVE;
+	animation-name: thanks;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	margin: 55Px;
+}
+
+.objective{
+	background color: greenyellow;
+	position: relative;
+	animation-name: quality;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes objective{
+	0%{
+		left: 40px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		left: 40px;
+	}
+}
+
+@keyframes thanks{
+	%{
+		right: 40px;
+	}
+	50%{
+		right: 100px;
+	}
+	100%{
+		right: 40px;
+	}
+}
+
+.eng{
+	height: 400px;
+	width: 300px;
+}
+.quality{
+	background-color: greenyellow;
+	position: relative;
+	animation-name: quality;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes quality{
+	0%{
+		left: 40px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		left: 40px;
+
+	}
+}
+h2{
+	background-color: #98FB98;
+	position: relative;
+	animation-name: h2;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes h2{
+	0%{
+		left: 50px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		left: 50px;
+	}
+}
+
+.heading{
+	color: black;
+	background-color: red;
+}
+.intro{
+	background-color: #7FFFD4;
+}
+.achi{
+	background-color: #F5F5DC;
+	position: relative;
+	animation-name: achi;
+	animation-name: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes achi{
+0%{
+	left: 40px;
+}
+50%{
+	left: 100px;
+}
+100%{
+	left: 40px;
+}
+}
+
+.ff{
+	background-color: #20B2AA;
+}
+.social{
+	background-color: #FFD700;
+	position: relative;
+	animation-name: social;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes social{
+0%{
+	left: 40px;
+}
+50%{
+	left: 100px;
+}
+100%{
+	left: 40px ;
+}
+}
